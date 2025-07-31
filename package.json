@@ -1,0 +1,53 @@
+{
+  "name": "frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@babel/helpers": "^7.26.10",
+    "@babel/runtime": "^7.26.10",
+    "@emailjs/browser": "^4.4.1",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/icons-material": "^6.4.3",
+    "@mui/material": "^6.4.3",
+    "@mui/styles": "^6.4.3",
+    "@mui/x-charts": "^7.27.1",
+    "@mui/x-data-grid": "^7.26.0",
+    "@mui/x-date-pickers": "^7.26.0",
+    "axios": "^1.8.3",
+    "dayjs": "^1.11.13",
+    "dayjs-plugin-utc": "^0.1.2",
+    "esbuild": "^0.25.0",
+    "jwt-decode": "^4.0.0",
+    "node-fetch": "^3.3.2",
+    "react": "^19.0.0",
+    "react-big-scheduler": "^0.2.7",
+    "react-calendar-timeline": "^0.30.0-beta.3",
+    "react-datepicker": "^8.1.0",
+    "react-dom": "^19.0.0",
+    "react-employe-attendance-scheduler": "^0.3.6",
+    "react-router-dom": "^7.1.5",
+    "styled-components": "^5.3.8",
+    "tree-console": "^1.2.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.19.0",
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^9.19.0",
+    "eslint-plugin-react": "^7.37.4",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.18",
+    "globals": "^15.14.0",
+    "prettier": "3.5.0",
+    "vite": "^6.3.0"
+  }
+}
